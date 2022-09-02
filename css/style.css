@@ -124,7 +124,6 @@ margin:-3px;
 }
 .card{
     word-wrap:initial !important;
-   
    border-radius: 5px !important;
 }
 .card-space img{
@@ -142,9 +141,7 @@ color:rgb(247, 103, 0);
     text-align: center;
     font-weight: bold;
     color:green;
-
 }
-
 /* start footer */
 .foot{
     background-image: repeating-linear-gradient(300deg,#f87128ea 10%, #ab0a0a33 10%,#f8962db4, #fc9609f7 10%);
