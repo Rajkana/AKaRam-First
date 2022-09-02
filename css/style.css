@@ -136,8 +136,8 @@ margin:-3px;
 .card-text{
 color:rgb(247, 103, 0);
 }
-.top-selling{
-    padding-bottom:40px;
+.view-all{
+    padding:40px;
     text-align: center;
     font-weight: bold;
     color:green;
@@ -210,6 +210,7 @@ color:rgb(247, 103, 0);
     .card-group{
         width: 100% !important;
         text-align: center !important; 
+        padding: 0px;
 
     }
     .card-space{

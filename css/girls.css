@@ -84,7 +84,7 @@
             font-size: 0.5rem !important;
         }
         .fix-width img {
-            height:76px !important;   
+            height:74px !important;   
         }
         .set-img{
             margin:0px !important;
@@ -102,16 +102,19 @@
         .card-group{
             width: 100% !important;
             text-align: center !important; 
-    
+        }.card{
+            margin: 0px !important; 
         }
         .items-card{
             padding:0px;
         }
+       
         .card-space{
             height:auto!important;
             width: 300px !important;
             margin-left: auto !important;
             margin-right: auto !important;
+            margin-top: 10px !important;
             padding: auto !important;
         }
 
@@ -141,7 +144,7 @@
           margin-top:10px;
         }
     }
-  /* IPad Mini */
+  /* IPad Air */
     @media only screen and (min-width:800px) and (max-width:1200px){
       
         .ch-bg-color{
