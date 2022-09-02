@@ -1,0 +1,55 @@
+.ch-bg-color{
+    background-image: url("https://dm1ll01jrnse4.cloudfront.net/home_page/opti_hmain215290.jpg?v=1661538600");
+    background-repeat:no-repeat;
+    background-size:cover;
+    display: block;
+    justify-items: center;
+    height:600px !important;
+    width: 100%;
+    margin:0px;
+}
+
+.nav-back{
+    float:left;
+    margin-left:20px;
+    text-transform: uppercase;
+}
+.new-arrival{
+    background-color: aliceblue;
+   padding:50px;
+    text-align: center;
+    color:green
+}
+.new-arrival h2{
+    border:1px solid orangered;
+    border-radius: 10px;;
+    padding:10px;
+    justify-content: space-between;
+    display:block;
+  position: relative;
+}
+.top-selling{
+    background-color: aliceblue;
+    padding:50px;
+    text-align: center;
+}
+.badge {
+   background-color:aliceblue; 
+   color:green;
+}
+
+.top-selling h6{
+    border:2px solid orange;
+    padding:10px;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+.top-selling h6:hover{
+    color:white;
+    background-color:cornflowerblue;
+    border:2px solid blue;
+}
+.nav-women{
+    background-color:rgb(244, 141, 15) !important; 
+    border-radius: 10px;
+}

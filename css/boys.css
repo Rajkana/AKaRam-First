@@ -1,0 +1,351 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.login-cart{
+    font-size: 20px;
+    display:flex;
+    justify-content: right;
+    border-bottom: 1px solid rgb(253, 253, 253);
+    width:100%;
+}
+.login{
+    margin-top:10px;
+    margin-bottom:10px;
+    padding-left:20px;
+}
+.like{
+    margin-top:10px;
+    margin-bottom:10px;
+    padding-left:20px;
+}
+.cart{
+    margin-top:10px;
+    margin-bottom:10px;
+    padding-left:20px;
+    margin-right: 50px;
+}
+.cart-update{
+    font-size: 10px;
+    margin-top:0px;
+}
+.dropdown-menu{
+    background-color: grey;
+}
+.dropdown-menu:hover{
+    background-color:rgba(245, 169, 110, 0.915);
+}
+.dropdown-item:hover{
+background-color: rgba(232, 114, 23, 0.915)
+}
+
+.login:hover,.cart:hover,.like:hover{
+    color:rgb(186, 92, 92);
+}
+ .main-menu,.header-nav{
+    background-color:rgba(232, 114, 23, 0.915)
+  
+}
+.navbar-brand, .nav-item a{
+    color:rgb(254, 254, 254) !important;
+}
+
+.card{
+   background-image: linear-gradient(180deg,#030112d9 20%, #91b0e6c3 60%,#021422 20%, #030112d9  10%);
+}
+.card img{
+    width:100% !important;
+}
+.bg-col{
+    background-color:rgb(212, 254, 248) !important; 
+    font-weight: bolder;
+ 
+}
+.bg-color{
+font-size:20px;
+}
+.dropdown {
+    background-color:rgb(244, 141, 15) !important; 
+    border-radius: 10px;
+}
+.bg-color:hover{
+  color:blueviolet
+    }
+.bdy-bg-color{
+    background-color: rgba(4, 62, 11, 0.325);
+    width:100% !important;
+   /* background-color: rgba(220, 212, 252, 0.838);
+    /*background-color: rgba(245, 160, 107, 0.838);*/
+}
+
+.fix-width img {
+    height:300px;
+    
+}
+.fix-width{
+display:flex;
+background-color: black;
+}
+.carousel-item{
+    text-align: center;
+    }
+.carousel-item img{
+    display: inline-block;
+    white-space: nowrap; 
+    margin:-3px;
+}
+    
+    .ch-bg-color{
+        background-image: url("https://www.stylostreet.com/wp-content/uploads/2022/04/Funsies-Sale-50off-800x445.jpg");
+        background-repeat:no-repeat;
+        background-size:cover;
+        display: block;
+        justify-items: center;
+        height:600px !important;
+        width: 100%;
+        margin:0px;
+    }
+    .card-space{
+        background-color: rgb(79, 97, 128) !important;  
+        background-image:linear-gradient(130deg,#0c0c0c35 70%, #a82a2a33 10%,#020b12, #1205056d 10%);
+        height:400px;
+        width:auto;
+       
+    }
+    .card{
+        word-wrap:initial !important;
+       border: 0px   !important;
+    }
+    .card img{
+        width:100% !important;
+    }
+    .card-space img{
+        height:240px;
+        width:100%;   
+    }
+    .items-card{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .card-title{
+        color:white !important;
+    }
+    .card-text{
+    color:rgb(247, 103, 0);
+    }
+    .nav-back{
+        text-transform: uppercase;
+    }
+    
+
+
+
+/*Responsive screen start*/
+
+    @media only screen and (max-width:768px){
+       
+        .ch-bg-color{
+            width: 100%;
+            height:200px !important;
+        }
+        .fix-width img {
+            height:80px !important;   
+        }
+        .set-img{
+            margin:0px !important;
+        }
+       
+        .set-cent{
+            margin-left:50px !important;
+            width: 70%;
+            padding: 0px !important;
+        }
+        .card img{
+            width:100% !important;
+            height:auto !important;
+        }
+        .card-group{
+            width: 100% !important;
+            text-align: center !important; 
+    
+        }
+        .card-space{
+            height:auto!important;
+            width: 300px !important;
+            margin-left: auto !important;
+            margin-right: auto !important;
+            padding: auto !important;
+        }
+        .foot, .widgetcontent h6{
+            font-size: 12px !important;
+            padding: 10px;
+        }
+        .nav-back {
+            margin-left: 0px;
+            text-transform: uppercase;
+        }
+        .nav-back ul li{
+            display:inline-block !important;
+           font-size: 10px;
+
+        }
+        .widgetservice{
+            text-align: left;
+            margin-bottom: 1rem !important;
+        }
+        .mb-remove-design{
+            display: none;
+        }
+    }
+
+/* Ipad Air */
+    @media only screen and (min-width:800px) and (max-width:1200px){
+      
+        .ch-bg-color{
+            width: 100%;
+            height:440px !important;
+        }
+        .fix-width img {
+            height:290px !important;   
+        }
+        .set-img{
+            margin:0px !important;
+        }
+        .set-cent{
+            width: 100%;
+            padding: 0px !important;
+        }
+        .card img{
+            width:100% !important;
+            height: auto; 
+        }
+   
+        .set-img > .ipad-height-adjust{
+            height:273px !important;
+        }
+      
+        .card-group{
+            position: relative;
+            overflow: hidden;
+            display: flex;
+            padding: 0px !important;
+            justify-content: center !important;
+            width: 100%;
+        }
+        .card-space{
+            height: 300px !important;
+            text-align: center;
+        }
+        .card-space img{
+            width:100% !important;
+            height: 120px !important;
+        }
+        .card-body{
+            width:100% !important;
+            height: auto !important;
+        }
+        .nav-back ul{
+           text-align: center !important;
+        }
+        .nav-back ul li{
+            display:inline-block !important;
+            font-size: 20px;
+        }
+        
+
+        .foot, .widgetcontent h6{
+            font-size: 20px !important;
+        }
+        
+        .mb-remove-design{
+            display: none !important;
+        }
+    }
+
+    /* IPad Mini */
+    @media only screen and (min-width:768px) and (max-width:1024px){
+        *{
+            box-sizing: border-box;  
+        }
+        body{
+            width: 100%;;
+        }
+        .ch-bg-color{
+            width: 100%;
+            height:440px !important;
+        }
+        .fix-width img {
+            height:160px !important;   
+        }
+        .set-img{
+            margin:0px !important;
+           
+        }
+        .set-cent{
+            position: relative;
+            overflow: hidden;
+            width: 100%;
+            padding: 0px !important;
+        }
+        .card img{
+            width:100% !important;
+            height: auto;
+           
+        }
+        .set-img > .ipad-height-adjust{
+            height:256px !important;
+        }
+        .card-group{
+            display: flex;
+            margin: 0px !important;
+            padding: 0px !important;
+            justify-content: center !important;
+            font-size: 10px !important;
+        }
+        .card-space{
+            position: relative;
+            overflow: hidden;
+            height: 300px !important;
+            text-align: center;
+            font-size: 10px !important;
+            margin-left: 2px !important;
+            margin-right: 2px !important;
+        }
+        .card-space h5{
+            font-size: 10px !important; 
+        }
+
+        .card-space img{
+            width:100% !important;
+            height: 130px !important;
+        }
+        .card-body{
+            font-size: 12px;
+            width:100% !important;
+            height: auto !important;
+        }
+        .nav-back ul{
+            display: block;
+            width: 100%;
+           text-align: center !important;
+        }
+      .widgetcontent h6{
+            font-size: 1.5rem !important;
+            width: auto;
+        }
+        .foot{
+            font-size: 20px !important;
+        }
+        .nav-back ul li{
+            display:inline-block !important;
+           font-size: 20px;
+           text-align: center;
+           line-height: 100px !important;
+
+        }
+    }
+
+      /* IPad Mini Landscape */
+      
+ 

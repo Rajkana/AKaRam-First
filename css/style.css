@@ -1,8 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-
+/* body */
+*{
+    box-sizing: border-box;
+}
 body{
     font-family: 'Roboto', sans-serif;
 }
+.header-nav{
+    width:100%;
+}
+/* start cart */
 .login-cart{
     font-size: 20px;
     display:flex;
@@ -30,25 +37,31 @@ body{
     font-size: 10px;
     margin-top:0px;
 }
+.login:hover,.cart:hover,.like:hover{
+    color:rgb(186, 92, 92);
+}
+
+/* End cart section */
+/* Start header nav */
 .dropdown-menu{
     background-color: grey;
 }
+
 .dropdown-menu:hover{
     background-color:rgba(245, 169, 110, 0.915);
 }
 .dropdown-item:hover{
 background-color: rgba(232, 114, 23, 0.915)
 }
-
-.login:hover,.cart:hover,.like:hover{
-    color:rgb(186, 92, 92);
-}
  .main-menu,.header-nav{
-    background-color:rgba(232, 114, 23, 0.915)
+    background-color:rgba(232, 114, 23, 0.915);  
 }
+
 .navbar-brand, .nav-item a{
     color:rgb(254, 254, 254) !important;
 }
+/* End header nav */
+/* Start Main section */
 .bg-col{
     background-color:rgb(212, 254, 248) !important; 
     font-weight: bolder;
@@ -57,10 +70,18 @@ background-color: rgba(232, 114, 23, 0.915)
 font-size:20px;
 }
 .bg-color:hover{
-  color:blueviolet
+  color:rgb(227, 209, 245)
+    }
+    .contaniner-fluid {
+        width:100% !important;
+        position: relative;
+        overflow: hidden;
     }
 .bdy-bg-color{
+    position: relative;
+    overflow: hidden;
     background-color: rgba(4, 62, 11, 0.325);
+    width:100% !important;
    /* background-color: rgba(220, 212, 252, 0.838);
     /*background-color: rgba(245, 160, 107, 0.838);*/
 }
@@ -72,32 +93,43 @@ font-size:20px;
 .fix-width{
 display:flex;
 text-align: center;
-background-color:rgba(0, 0, 0, 0.838);
+background-color: black;
+background-image:linear-gradient(147deg,#117f9b77 40%, #0d0d0d33 10%,#020b12, #0000006d 14%);
 }
+    
 .carousel-item img{
 display: inline-block;
 white-space: nowrap; 
 margin:-3px;
 }
-
+/* welcome section */
 .ch-bg-color{
     background-color: rgb(5, 21, 51) !important;
     color:chocolate;
     text-align: center;
 }
+/* Main Card section */
+.card-group{
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+
+}
 .card-space{
     background-color: rgb(79, 97, 128) !important;  
+    background-image:linear-gradient(130deg,#0c0c0c35 70%, #a82a2a33 10%,#020b12, #1205056d 10%);
     height:490px;
     width:100px!important;
     margin:10px;
+    border: 1px  solid black  !important;
 }
 .card{
     word-wrap:initial !important;
-   border: 0px   !important;
+   
+   border-radius: 5px !important;
 }
 .card-space img{
     height:300px;
-    width:100%;   
+    width:auto ;
 }
 .card-title{
     color:white !important;
@@ -105,3 +137,175 @@ margin:-3px;
 .card-text{
 color:rgb(247, 103, 0);
 }
+.top-selling{
+    padding-bottom:40px;
+    text-align: center;
+    font-weight: bold;
+    color:green;
+
+}
+
+/* start footer */
+.foot{
+    background-image: repeating-linear-gradient(300deg,#f87128ea 10%, #ab0a0a33 10%,#f8962db4, #fc9609f7 10%);
+    letter-spacing: 2px;
+    padding-top:100px;
+    padding-bottom:50px;
+}
+
+.widgetservice{
+    text-align: left;
+    margin-bottom: 30px;;
+}
+.widgettitle {
+    display: inline-block;
+    width: 150px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.widgetcontent ul li{
+    display: inline-block;
+    margin-left: 20px;
+    list-style-type: none;
+}
+.socialdiv li a{
+    color:black !important;
+}
+.widgetcontent li a{
+    color:black !important;
+    
+}
+.fa-brands{
+    font-size: 20px !important;
+}
+.copyright{
+    text-align: center;
+}
+
+
+/*Responsive screen start*/
+
+@media only screen and (max-width:800px){
+    *{
+        box-sizing: border-box;  
+    }
+    body{
+        margin:0px !important;
+        width: 100%;
+    }
+    
+    .fix-width img {
+        height:80px;   
+    }
+    .ch-bg-color{
+        height:50px;
+    }
+    .display-4 {
+        font-size:20px !important;
+        font-weight: 100 !important;
+        line-height: 1.2;
+    }
+    .lead{
+        font-size:10px !important;
+    }
+    .card-group{
+        width: 100% !important;
+        text-align: center !important; 
+
+    }
+    .card-space{
+        height:auto!important;
+        width: 300px !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        padding: auto !important;
+    }
+    .foot, .widgetcontent h6{
+        padding: 10px;
+    }
+  
+    .widgetcontent ul{
+        text-align: center;
+        margin: 0px !important;
+        padding: 0px !important;
+    }
+    .widgetcontent ul li{
+       text-align: center;
+       line-height: 30px;
+    }
+    .socialdiv ul li {
+        display:inline-block !important;
+        text-align: center;
+        margin: 0px;
+     }
+     .bg-col{
+        background-color:rgb(212, 254, 248) !important; 
+        font-weight: bolder;
+        width:250px;
+    }
+    .bg-color{
+        padding-left:20px;
+    font-size:20px;
+    }
+    .mb-remove-design{
+        display: none !important;
+    }
+ 
+}
+
+
+
+@media only screen and (min-width:800px) and (max-width:1200px){
+    .fix-width img {
+        height:180px;   
+    }
+    .ch-bg-color{
+        height:60px;
+        padding-top: 5px;
+    }
+    .display-4 {
+        font-size:25px !important;
+        font-weight: 100 !important;
+    line-height: 1.2;  
+    }
+    .lead{
+        font-size:14px !important;
+    }
+   
+    .card-space {
+        position: relative;
+        overflow: hidden;
+        display: flex;
+        height:auto !important;
+        width:180px !important;
+       margin-left: 10px;
+       margin-right:10px;
+    }
+    .card-space img{
+        width:100%;
+        height: auto;
+    }
+    .card-space, .card-space h5{
+font-size: 12px;;
+    }
+    .widgetcontent ul{
+        text-align: center;
+        margin: 0px !important;
+        padding: 0px !important;
+    }
+    .widgetcontent ul li{
+       display:block !important;
+       text-align: center;
+    } 
+    .socialdiv ul li {
+        display:inline-block !important;
+        text-align: center;
+        margin: 0px;
+     }
+     .mb-remove-design{
+        display: none;
+    }
+    }
+

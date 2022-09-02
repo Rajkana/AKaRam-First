@@ -1,0 +1,292 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+.ch-bg-color{
+    background-image: url("https://cdn.shopify.com/s/files/1/0112/9896/3514/files/IntotheSunset-2_1800x.jpg?v=1660263282");
+    background-repeat:no-repeat;
+    background-size:cover;
+    display: block;
+    justify-items: center;
+    height:600px !important;
+    width: 100%;
+    margin:0px;
+}
+.dropdown {
+    background-color:rgb(244, 141, 15) !important; 
+    border-radius: 10px;
+}
+.nav-back{
+    text-transform: uppercase;
+}
+.new-arrival{
+    background-color: aliceblue;
+   padding:10px;
+    text-align: center;
+    color:green;
+    
+}
+.new-arrival h2{
+    border:1px solid orangered;
+    border-radius: 10px;;
+    padding:10px;
+    justify-content: space-between;
+    display:block;
+  position: relative;
+}
+.top-selling{
+    background-color: aliceblue;
+    padding:20px;
+    text-align: center;
+    border-left: 10px solid  rgba(4, 62, 11, 0.325);
+    border-right: 10px solid  rgba(4, 62, 11, 0.325);
+}
+.badge {
+   background-color:aliceblue; 
+   color:green;
+
+}
+
+.top-selling h6{
+    border:2px solid orange;
+    padding:10px;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+.top-selling h6:hover{
+    color:white;
+    background-color:cornflowerblue;
+    border:2px solid blue;
+}
+.cbdy-bg-color{
+    background-color: aliceblue;
+}
+.items-card{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.viewall{
+    padding-top:20px;
+    text-align: center;
+}
+
+
+/*Responsive screen start*/
+
+    @media only screen and (max-width:768px){
+       
+        .ch-bg-color{
+            width: 100%;
+            height:140px !important;
+        }
+        .top-selling{
+            padding:2px;
+            
+        }
+        .top-selling h6{
+            font-size: 0.5rem !important;
+        }
+        .fix-width img {
+            height:76px !important;   
+        }
+        .set-img{
+            margin:0px !important;
+        }
+       
+        .set-cent{
+            margin-left:50px !important;
+            width: 70%;
+            padding: 0px !important;
+        }
+        .card img{
+            width:100% !important;
+            height:auto !important;
+        }
+        .card-group{
+            width: 100% !important;
+            text-align: center !important; 
+    
+        }
+        .items-card{
+            padding:0px;
+        }
+        .card-space{
+            height:auto!important;
+            width: 300px !important;
+            margin-left: auto !important;
+            margin-right: auto !important;
+            padding: auto !important;
+        }
+
+        .foot, .widgetcontent h6{
+            font-size: 12px !important;
+            padding: 10px;
+        }
+        .nav-back {
+            position: relative;
+            display: block;
+            margin-left: 0px !important;
+            text-transform: uppercase;
+        }
+        .nav-back ul li{
+            display:inline-block !important;
+           font-size: 10px;
+
+        }
+        .widgetservice{
+            text-align: left;
+            margin-bottom: 1rem !important;
+        }
+        .mb-remove-design{
+            display: none;
+        }
+        .copyright{
+          margin-top:10px;
+        }
+    }
+  /* IPad Mini */
+    @media only screen and (min-width:800px) and (max-width:1200px){
+      
+        .ch-bg-color{
+            width: 100%;
+            height:440px !important;
+        }
+        .fix-width img {
+            height:290px !important;   
+        }
+        .set-img{
+            margin:0px !important;
+        }
+        .set-cent{
+            width: 100%;
+            padding: 0px !important;
+        }
+        .card img{
+            width:100% !important;
+            height: auto; 
+        }
+   
+        .set-img > .ipad-height-adjust{
+            height:273px !important;
+        }
+      
+        .card-group{
+
+            display: flex;
+            padding: 0px !important;
+            justify-content: center !important;
+            width: 100%;
+        }
+        .card-space{
+            height: 300px !important;
+            text-align: center;
+        }
+        .card-space img{
+            width:100% !important;
+            height: 120px !important;
+        }
+        .card-body{
+            width:100% !important;
+            height: auto !important;
+        }
+        .nav-back{
+            text-align: center !important;
+        }
+        .nav-back ul li{
+            display:inline-block !important;
+            font-size: 20px;
+            text-align: center !important;
+        }
+        .widgetcontent .nav-back ul{
+            text-align: center !important;
+        }
+        .foot, .widgetcontent h6{
+            font-size: 20px !important;
+        }
+        
+        .mb-remove-design{
+            display: none !important;
+        }
+       .oursevice{
+        display: none;
+       }
+    }
+
+    @media only screen and (min-width:768px) and (max-width:1024px){
+        *{
+            box-sizing: border-box;  
+        }
+        body{
+            width: 100%;;
+        }
+        .ch-bg-color{
+            width: 100%;
+            height:440px !important;
+        }
+        .fix-width img {
+            height:160px !important;   
+        }
+        .set-img{
+            margin:0px !important;
+           
+        }
+        .set-cent{
+            position: relative;
+            overflow: hidden;
+            width: 100%;
+            padding: 0px !important;
+        }
+        .card img{
+            width:100% !important;
+            height: auto;
+           
+        }
+        .set-img > .ipad-height-adjust{
+            height:256px !important;
+        }
+        .card-group{
+            display: flex;
+            margin: 0px !important;
+            padding: 0px !important;
+            justify-content: center !important;
+            font-size: 10px !important;
+        }
+        .card-space{
+            position: relative;
+            overflow: hidden;
+            height: 300px !important;
+            text-align: center;
+            font-size: 10px !important;
+            margin-left: 2px !important;
+            margin-right: 2px !important;
+        }
+        .card-space h5{
+            font-size: 10px !important; 
+        }
+
+        .card-space img{
+            width:100% !important;
+            height: 130px !important;
+        }
+        .card-body{
+            font-size: 12px;
+            width:100% !important;
+            height: auto !important;
+        }
+        .nav-back ul{
+            display: block;
+            width: 100%;
+           text-align: center !important;
+        }
+      .widgetcontent h6{
+            font-size: 1.5rem !important;
+            width: auto;
+        }
+        .foot{
+            font-size: 20px !important;
+        }
+        .nav-back ul li{
+            display:inline-block !important;
+           font-size: 20px;
+           text-align: center;
+           line-height: 100px !important;
+
+        }
+    }

@@ -7,6 +7,7 @@
     <!-- Bootstrap css -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <!-- font awesome icons -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/all.min.css">
     <!-- custom css -->
     <link rel="stylesheet" href="./css/style.css">
@@ -28,7 +29,7 @@
 </div>
 <div class="main-menu">
     <nav class="navbar navbar-expand-lg navbar-light">
-        <a class="navbar-brand" href="#">AKaRam</a>
+        <a class="navbar-brand" href="#akaram">AKaRam</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -36,21 +37,21 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item">
-              <a class="nav-link active" href="#">Home </a>
+              <a class="nav-link active" href="#home">Home </a>
             </li>
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Kids</a>
                 <div class="dropdown-menu">
-                  <a class="dropdown-item" href="#">Boys</a>
-                  <a class="dropdown-item" href="#">Girls</a>
+                  <a class="dropdown-item" href="./html/boys.html" target="_blank">Boys</a>
+                  <a class="dropdown-item" href="./html/girls.html" target="_blank">Girls</a>
                 </div>
               </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Mens</a>
+              <a class="nav-link" href="./html/mens.html" target="_blank">Mens</a>
             </li>
             
             <li class="nav-item">
-              <a class="nav-link" href="#">Womens</a>
+              <a class="nav-link" href="./html/womens.html" target="_blank">Womens</a>
             </li>
           </ul>
           <form class="form-inline my-2 my-lg-0">
@@ -62,13 +63,15 @@
 </div>
 </header>
 <!-----################## End header area        ##################-->
-<!-- %%%%%%%%%%%%%% Start Body section %%%%%%%%%%%%%%%%%%-->
+
+<!-- start Main section -->
 <div class="contaniner-fluid bdy-bg-color">
-  <div id="carouselExampleIndicators" class="carousel slide fix-width" data-ride="carousel">
+  <!-- Start carousel section -->
+  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="2000">
     <ol class="carousel-indicators">
       <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-      <li data-target="#carouselExampleIndicators" data-slide-to="1" class="active"></li>
-      <li data-target="#carouselExampleIndicators" data-slide-to="2" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
     </ol>
     <div class="carousel-inner fix-width">
       <div class="carousel-item active">
@@ -96,18 +99,22 @@
       <span class="sr-only">Next</span>
     </button>
   </div>
+    <!-- End carousel section -->
+      <!-- Start welcome section -->
   <div class="jumbotron jumbotron-fluid ch-bg-color">
     <div class="container ch-bg-color">
       <h1 class="display-4">Welcome You...!</h1>
       <p class="lead">Shop Now - Take 30% to 40% OFF</p>
     </div>
   </div>
+  <!-- Start welcome section -->
+
 <!-- card row1 start -->
   <div class="card-group">
     <div class="card card-space">
       <img class="img-fluid" src="https://image.menswearhouse.com/is/image/TMW/MW40_31K7_01_AWEARNESS_BY_KENNETH_COLE_NAVY_SET?$40MainPDP$" class="card-img-top" alt="...">
       <div class="card-body">
-        <a class="card-title" href="#">Awearness Kenneth Cole AWEAR-TECH Slim Fit Suit Separates Vest, Black</a>
+        <a class="card-title" href="#">Awearness Kenneth Cole AWEAR-TECH Slim Fit Suit Separates Vest, Black</a><br><br>
         <h5 class="card-text">$89.99</h5>
         <a class="card-title" href="#">Men's Wearhouse</a>
       </div>
@@ -115,50 +122,51 @@
     <div class="card card-space">
       <img class="img-fluid" src="https://images.unsplash.com/photo-1571513722275-4b41940f54b8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTV8fGZhc2hpb258ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60" class="card-img-top" alt="...">
       <div class="card-body">
-        <a class="card-title" href="#">Women's Suits, Get the perfect all white suits</a><br><br>
+        <a class="card-title" href="#">Women's Suits, Get the perfect all white suits</a><br><br><br>
         <h5 class="card-text">$79.99</h5>
         <a class="card-title" href="#">Women's Wearhouse</a>
       </div>
     </div>
     <div class="card card-space">
-      <img src="https://images.unsplash.com/photo-1434389677669-e08b4cac3105?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8Y2xvdGhlc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60" class="card-img-top" alt="...">
+      <img class="img-fluid" src="https://images.unsplash.com/photo-1434389677669-e08b4cac3105?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8Y2xvdGhlc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60" class="card-img-top" alt="...">
       <div class="card-body">
         <a class="card-title" href="#">Outfit Trends, Drop Shoulder Textured Crop Pullover</a> <br><br>
         <h5 class="card-text">$55.55</h5>
-        <a class="card-title" href="#">AKaRam Store Pickup only</a>
+        <a class="card-title" href="#">AKaRam Store</a>
       </div>
     </div>
     <div class="card card-space">
-      <img src="https://img.ltwebstatic.com/images3_pi/2022/04/26/16509722560a5715e24b5e42e01ca91c280e2a5221.webp" class="card-img-top" alt="...">
+      <img class="img-fluid" src="https://img.ltwebstatic.com/images3_pi/2022/04/26/16509722560a5715e24b5e42e01ca91c280e2a5221.webp" class="card-img-top" alt="...">
       <div class="card-body">
-        <a class="card-title">Faux Pearl Decor Bridal Veil</a><br><br><br>
+        <a class="card-title" href="#">Faux Pearl Decor Bridal Veil</a><br><br><br>
         <h5 class="card-text">$71.99</h5>
         <a class="card-title" href="#">Women's Wearhouse</a>
       </div>
     </div>
     <div class="card card-space">
-      <img src="https://image.menswearhouse.com/is/image/TMW/MW40_22F5_17_HAGGAR_CHARCOAL_SET?$40MainPDP$" class="card-img-top" alt="...">
+      <img class="img-fluid" src="https://image.menswearhouse.com/is/image/TMW/MW40_22F5_17_HAGGAR_CHARCOAL_SET?$40MainPDP$" class="card-img-top" alt="...">
       <div class="card-body">
-        <a class="card-title" href="#">Men Chevron Embroidery Slant Pocket Tailored Pants</a><br><br>
+        <a class="card-title" href="#">Men Chevron Embroidery Slant Pocket Tailored Pants</a><br><br><br>
         <h5 class="card-text">$22</h5>
         <a class="card-title" href="#">Suit Pants-AKaRam Store </a>
       </div>
     </div>
     <div class="card card-space">
-      <img src="https://img.ltwebstatic.com/images3_pi/2021/05/25/1621907764daf1c4ddf18b550343e03908362994ee_thumbnail_900x.webp" class="card-img-top" alt="...">
+      <img class="img-fluid" src="https://img.ltwebstatic.com/images3_pi/2021/05/25/1621907764daf1c4ddf18b550343e03908362994ee_thumbnail_900x.webp" class="card-img-top" alt="...">
       <div class="card-body">
-        <a class="card-title">SHEIN Men Striped Trim Button Front Shirt</a><br><br>
+        <a class="card-title" href="#">SHEIN Men Striped Trim Button Front Shirt</a><br><br><br>
         <h5 class="card-text">$16.99</h5>
         <a class="card-title" href="#">Shirts-AKaRam Store </a>
       </div>
     </div>
     </div>
+     <!-- card row1 End-->
     <!-- card row2 start -->
     <div class="card-group">
       <div class="card card-space">
         <img class="img-fluid" src="https://img.ltwebstatic.com/images3_pi/2022/04/19/165034606186af277321a1a699379889f498e8a0c6_thumbnail_900x.webp" class="card-img-top" alt="...">
         <div class="card-body">
-          <a class="card-title" href="#">Cool shirts- White and black collections</a><br><br>
+          <a class="card-title" href="#">Cool shirts- White and black collections</a><br><br><br>
           <h5 class="card-text">$20.99</h5>
           <a class="card-title" href="#">Men's Wearhouse</a>
         </div>
@@ -172,47 +180,48 @@
         </div>
       </div>
       <div class="card card-space">
-        <a href="https://img.ltwebstatic.com/images3_pi/2022/03/31/164872167996c19bd8d1e2bf7543032883cc47c4a1_thumbnail_900x.webp"><img src="https://img.ltwebstatic.com/images3_pi/2022/03/31/164872167996c19bd8d1e2bf7543032883cc47c4a1_thumbnail_900x.webp" class="card-img-top" alt="..."></img></a>
+      <img class="img-fluid" src="https://dm1ll01jrnse4.cloudfront.net/optimize/opti_1270250001_img1.jpg" class="card-img-top" alt="..."></img></a>
         <div class="card-body">
           <a class="card-title" href="#">Outfit Trends, Drop Shoulder Textured Crop Pullover</a> <br><br>
           <h5 class="card-text">$55.55</h5>
-          <a class="card-title" href="#">AKaRam Store Pickup only</a>
+          <a class="card-title" href="#">AKaRam Store </a>
         </div>
       </div>
       <div class="card card-space">
-        <img src="https://image.menswearhouse.com/is/image/TMW/MW40_6GXA_09_LUCKY_BRAND_OLIVE_MAIN?$40GridDesktop2x$" class="card-img-top" alt="...">
+        <img class="img-fluid" src="https://image.menswearhouse.com/is/image/TMW/MW40_6GXA_09_LUCKY_BRAND_OLIVE_MAIN?$40GridDesktop2x$" class="card-img-top" alt="...">
         <div class="card-body">
-          <a class="card-title">SHEIN Men V-Neck Solid Tee</a><br><br>
+          <a class="card-title" href="#" >SHEIN Men V-Neck Solid Tee</a><br><br><br>
           <h5 class="card-text">$11</h5>
           <a class="card-title" href="#">SHEIN Basics</a>
         </div>
       </div>
       <div class="card card-space">
-        <img src="https://img.ltwebstatic.com/images3_pi/2021/09/01/16304789351f453eb2bc2a1da04fa8911a6c24151c_thumbnail_900x.webp" class="card-img-top" alt="...">
+        <img class="img-fluid" src="https://img.ltwebstatic.com/images3_pi/2021/09/01/16304789351f453eb2bc2a1da04fa8911a6c24151c_thumbnail_900x.webp" class="card-img-top" alt="...">
         <div class="card-body">
-          <a class="card-title" href="#">Shein-Girls Plaid Print Drop Shoulder Blouse</a><br><br>
+          <a class="card-title" href="#">Shein-Girls Plaid Print Drop Shoulder Blouse</a><br><br><br>
           <h5 class="card-text">$22</h5>
           <a class="card-title" href="#">Girls Casual-AKaRam Store </a>
         </div>
       </div>
       <div class="card card-space">
-        <img src="https://img.ltwebstatic.com/images3_pi/2021/10/11/1633920540132a5d77805541ebf274ee3c51f64c97_thumbnail_900x.webp" class="card-img-top" alt="...">
+        <img class="img-fluid" src="https://img.ltwebstatic.com/images3_pi/2021/10/11/1633920540132a5d77805541ebf274ee3c51f64c97_thumbnail_900x.webp" class="card-img-top" alt="...">
         <div class="card-body">
-          <a class="card-title">Dragon Graphic Pullover & Sweatpants</a><br>
+          <a class="card-title" href="#">Dragon Graphic Pullover & Sweatpants</a><br><br><br>
           <h5 class="card-text">$18.99</h5>
-          <a class="card-title" href="#">Chinese Dragon-AKaRam Store </a>
+          <a class="card-title" href="#">AKaRam Store </a>
         </div>
       </div>
       </div>
+        <!-- card row2 End-->
 
 <!-- card row3 start -->
 <div class="card-group">
   <div class="card card-space">
-    <img class="img-fluid" src="https://image.menswearhouse.com/is/image/TMW/MW40_31K7_01_AWEARNESS_BY_KENNETH_COLE_NAVY_SET?$40MainPDP$" class="card-img-top" alt="...">
+    <img class="img-fluid" src="https://assets.theplace.com/image/upload/t_plp_img_d,f_auto,q_auto,dpr_1.5/v1/ecom/assets/products/tcp/3033968/3033968_332K.jpg" class="card-img-top" alt="...">
     <div class="card-body">
-      <a class="card-title" href="#">Awearness Kenneth Cole AWEAR-TECH Slim Fit Suit Separates Vest, Black</a>
-      <h5 class="card-text">$89.99</h5>
-      <a class="card-title" href="#">Men's Wearhouse</a>
+      <a class="card-title" href="#">Girls Denim Jogger Jeans - Serena Wash</a><br><br>
+      <h5 class="card-text">$42.99</h5>
+      <a class="card-title" href="#">Kid's Wearhouse</a>
     </div>
   </div>
   <div class="card card-space">
@@ -220,58 +229,151 @@
     <div class="card-body">
       <a class="card-title" href="#">AKaRam- Girls Pouch Pocket Hooded Dress  </a><br><br>
       <h5 class="card-text">$14.99</h5>
-      <a class="card-title" href="#">AKaRam Store Pickup only</a>
+      <a class="card-title" href="#">AKaRam Store</a>
     </div>
   </div>
   <div class="card card-space">
-    <img src="https://images.unsplash.com/photo-1434389677669-e08b4cac3105?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8Y2xvdGhlc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60" class="card-img-top" alt="...">
+    <img class="img-fluid" src="https://assets.theplace.com/image/upload/t_plp_img_d,f_auto,q_auto,dpr_1.5/v1/ecom/assets/products/snj/3033672/3033672_32Y8.jpg" class="card-img-top" alt="...">
     <div class="card-body">
-      <a class="card-title" href="#">Outfit Trends, Drop Shoulder Textured Crop Pullover</a> <br><br>
-      <h5 class="card-text">$55.55</h5>
-      <a class="card-title" href="#">AKaRam Store Pickup only</a>
+      <a class="card-title" href="https://assets.theplace.com/image/upload/t_plp_img_d,f_auto,q_auto,dpr_1.5/v1/ecom/assets/products/snj/3033672/3033672_32Y8.jpg">Low Rise Skater Jeans - Park Wash</a> <br><br>
+      <h5 class="card-text">$34.97</h5>
+      <a class="card-title" href="#">AKaRam Store</a>
     </div>
   </div>
   <div class="card card-space">
-    <img src="https://image.menswearhouse.com/is/image/TMW/MW40_6GXA_09_LUCKY_BRAND_OLIVE_MAIN?$40GridDesktop2x$" class="card-img-top" alt="...">
+    <img class="img-fluid" src="https://assets.theplace.com/image/upload/t_plp_img_d,f_auto,q_auto,dpr_1.5/v1/ecom/assets/products/snj/3034537/3034537_01.jpg" class="card-img-top" alt="...">
     <div class="card-body">
-      <a class="card-title">SHEIN Men V-Neck Solid Tee</a><br><br>
-      <h5 class="card-text">$11</h5>
-      <a class="card-title" href="#">SHEIN Basics</a>
+      <a class="card-title" href="https://assets.theplace.com/image/upload/t_plp_img_d,f_auto,q_auto,dpr_1.5/v1/ecom/assets/products/snj/3034537/3034537_01.jpg">Light Up Cat Ears Headband - Black</a><br><br>
+      <h5 class="card-text">$10.47</h5>
+      <a class="card-title" href="#">Childrensplace</a>
     </div>
   </div>
   <div class="card card-space">
-    <img src="https://image.menswearhouse.com/is/image/TMW/MW40_22F5_17_HAGGAR_CHARCOAL_SET?$40MainPDP$" class="card-img-top" alt="...">
+    <img class="img-fluid" src="https://image.menswearhouse.com/is/image/TMW/MW40_22F5_17_HAGGAR_CHARCOAL_SET?$40MainPDP$" class="card-img-top" alt="...">
     <div class="card-body">
-      <a class="card-title" href="#">Men Chevron Embroidery Slant Pocket Tailored Pants</a><br><br>
-      <h5 class="card-text">$22</h5>
-      <a class="card-title" href="#">Suit Pants-AKaRam Store </a>
+      <a class="card-title" href="#">Toddler Girls Eyelash Cardigan - Bunnys Tail</a><br><br>
+      <h5 class="card-text">$16.17</h5>
+      <a class="card-title" href="#">AKaRam Store </a>
     </div>
   </div>
   <div class="card card-space">
-    <img src="https://img.ltwebstatic.com/images3_pi/2021/05/25/1621907764daf1c4ddf18b550343e03908362994ee_thumbnail_900x.webp" class="card-img-top" alt="...">
+    <img class="img-fluid" src="https://assets.theplace.com/image/upload/t_plp_img_d,f_auto,q_auto,dpr_1.5/v1/ecom/assets/products/tcp/Kit2795095/Kit2795095.jpg" class="card-img-top" alt="...">
     <div class="card-body">
-      <a class="card-title">SHEIN Men Striped Trim Button Front Shirt</a><br><br>
-      <h5 class="card-text">$16.99</h5>
-      <a class="card-title" href="#">Shirts-AKaRam Store </a>
+      <a class="card-title" href="https://assets.theplace.com/image/upload/t_plp_img_d,f_auto,q_auto,dpr_1.5/v1/ecom/assets/products/tcp/Kit2795095/Kit2795095.jpg">Matching Family Pajamas - Peace Love Joy Collection</a><br><br>
+      <h5 class="card-text">$7.77- $41.97</h5>
+      <a class="card-title" href="#">AKaRam Store </a>
     </div>
   </div>
+  </div><br><br>
+    <!-- card row3 End-->
+    <div class="top-selling">
+      <button type="button" class="btn btn-outline-success">VIEW ALL</button>
+    </div>
+  </div>
+  <!-- View all begin -->
+
+
+
+
+
+  <!-- <div class="row row-cols-1 row-cols-md-2"> 
+    <div class="col mb-4">
+      <div class="card">
+        <img src="..." class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col mb-4">
+      <div class="card">
+        <img src="..." class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col mb-4">
+      <div class="card">
+        <img src="..." class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col mb-4">
+      <div class="card">
+        <img src="..." class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        </div>
+      </div>
+    </div>
   </div>
 
+
+
+
+
+
+
+
+
+
+
+<!-- View all End-->
+
+  <!-- End Main section -->
+<!-- start Footer section -->
+  <footer>
+    <div class="foot">
+      <div class="col-sm-12 col-md-12"> 
+        <div class="widgetservice ourservice">
+        <div class="widgetcontent">
+          <ul>
+            <li><h6 class="widgettitle">CONTACT US </h6></li>
+            <li class="mb-remove-design">|</li>
+            <li>Address: 1/117 Dharapuram Road, Poosaripatti-642 205</li>
+            <li class="mb-remove-design">|</li>
+            <li><i class="fa-regular fa-envelope"></i> <a href="akaram.ppty@gmail.com"> akaram.ppty@gmail.com</a></li>
+            <li class="mb-remove-design"> |</li>
+            <li>Phone: +91 9894032920</li>
+          </ul>
+        </div>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-12"> 
+        <div class="widgetservice ourservice">
+          <div class="widgetcontent socialdiv">
+            <ul>
+              <li><h6 class="widgettitle">FOLLOW US </h6></li>
+              <li class="mb-remove-design">|</li>
+              <li> <a href="www.twitter.com" target="_blank"><i class="fa-brands fa-square-twitter"></i></a></li>
+              <li> <a href="www.twitter.com" target="_blank"><i class="fa-brands fa-square-facebook"></i></a></li>
+              <li> <a href="www.twitter.com" target="_blank"><i class="fa-brands fa-square-youtube"></i></a></li>
+              <li> <a href="www.twitter.com" target="_blank"><i class="fa-brands fa-square-instagram"></i></a></li>
+            </ul>
+          </div>
+          </div>
+    </div>
+    
+    <div class="copyright">Copyrights @ 2022 All Rights Reserved by AKaRam.</div>
   </div>
-
-
-
-
+  </footer>
+  <!--End Footer section -->
 
 <!-- %%%%%%%%%%%%%% End Body section %%%%%%%%%%%%%%%%%%-->
 <!-- Add jQuery file -->
+<script src="./JS/jquery.3.6.0.js"></script>
+<!-- Bootrstarp js-->
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-
-<!-- Bootrstarp js-->
-
-
-
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
 </body>
+<!-- %%%%%%%%%%%%%% End Body section %%%%%%%%%%%%%%%%%%-->
 </html>
